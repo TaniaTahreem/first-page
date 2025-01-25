@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;    
+}
+header{
+     background: orange;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+ .logo{
+    width: 20%;
+    float: left;
+}
+.menu{
+    width: 80%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.logo h2{
+    text-transform: uppercase;
+} 
+.menu ul{
+    float: right;
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 17px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+     transition: 0.6s;
+}
+.menu ul li a:hover{
+    color: white;
+}
+.menu ul .o-btn{
+    background: black;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+}
+.menu ul .o-btn:hover{
+   background: transparent;
+   border: solid 1px black;
+   color: black;
+}
+.hero{
+    background: url("pic-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero .overlay{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 100px 0px;
+    color: white;
+}
+.hero .overlay h1{
+    font-size: 44px;
+}
+.my-grid{
+    padding: 20px 0px;
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    font-size: 36px;
+}
+.col-33{
+    width: 33.3333%;
+    float: left;
+}
+.card{
+    background: #efefef;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 3px silver;
+}
+.card i{
+    font-size: 44px;
+}
+.btn{
+    background: black;
+    border: 1px solis black;
+    color: white;
+    width: 160px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 50px;
+}
+.call2action{
+    background: #efefef;
+    padding: 50px 0px;
+    margin: 50px 0px;
+    text-align: center;
+}
+.col-66{
+    width: 66.6667%;
+    float: left;
+}
+.field{
+    width: 100%;
+    height: 31px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.newsletter{
+    padding-left: 20px 0px;
+}
+.formfield{
+    padding:20px;
+   
+}
+footer{
+    padding: 30px 0px;
+    background: black;
+    color: white;
+}
+.col-25{
+    width: 25%;
+    float: left;
+}
+footer .inner{
+    padding: 10px;
+}
+ 
+.fmenu{
+    list-style: none;
+    padding-left: 0px;
+}
+.fmenu li{
+    line-height: 30px;
+}
+.fmenu li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.6;
+}
+.fmenu li a:hover{
+    color: orange;
+}
+.s-icons{
+    list-style: none;
+}
+.s-icons li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: white;
+    margin: 5px;
+    border-radius: 50px;
+    position:relative ;
+    transition: 0.6s;
+}
+.s-icons li:hover{
+    background: orange;
+}
+.s-icons li a{
+    color: black;
+}
+.s-icons li a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (max-width:768px){
+    .container{
+        width: 100%;
+    }
+    .menu, .logo{
+        float: none;
+        width: 100%;
+    }
+    .logo h2{
+        text-align: center;
+    }
+    .menu ul{
+        float: none;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .hero .overlay h1{
+        text-align: center;
+    }
+    .col-33, .col-25, .col-25{
+        float: none;
+        width: 100%;
+    }
+}
